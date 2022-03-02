@@ -47,7 +47,7 @@ def env():
 
 while True:
     user()
-    os.system("sudo dnf upgrade")
+    os.system("sudo dnf upgrade -y")
     os.system("sudo dnf grouplist -v")
     print("--------------------------------------")
     print("1. Cinnamon Desktop Environment")
