@@ -23,7 +23,7 @@ python3 main.py
 Follow those steps...\
 After rebooting log back in your server then follow along.
 
-## Run after installation python script
+## Run after reboot
 
 ```
 python3 later.py
