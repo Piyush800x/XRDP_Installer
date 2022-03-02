@@ -59,4 +59,5 @@ while True:
     env()
     print("Desktop Environment Installation Complete")
     print("Rebooting in 10 seconds...")
+    time.sleep(10)
     os.system("sudo reboot")
