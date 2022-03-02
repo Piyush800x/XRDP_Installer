@@ -46,6 +46,7 @@ def env():
 
 
 while True:
+    os.system("figlet XRDP INSTALLER PART 1")
     user()
     os.system("sudo dnf upgrade -y")
     os.system("sudo dnf grouplist -v")
