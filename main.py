@@ -48,6 +48,7 @@ while True:
     os.system("figlet XRDP INSTALLER PART 1")
     user()
     os.system("sudo dnf upgrade -y")
+    os.system("wget https://raw.githubusercontent.com/Piyush800x/XRDP_Installer/main/later.py")
     os.system("sudo dnf grouplist -v")
     print("--------------------------------------")
     print("1. Cinnamon Desktop Environment")
