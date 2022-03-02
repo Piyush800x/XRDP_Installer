@@ -35,5 +35,5 @@ Now open Remote Desktop Connection and connect with the public ip of your server
 
 This project is still in development.\
 I tested with KDE Plasma Desktop Environment in the fedora server.\
-Our target is to make this project more flexible as this script can work on almost all distributions.
+Our target is to make this project more flexible as this script can work on almost all distributions. \
 Thank you for trying our project.
