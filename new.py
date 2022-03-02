@@ -5,7 +5,6 @@ import sys
 os.system("sudo yum install nano -y")
 os.system("sudo yum install firewalld -y")
 os.system("sudo yum install figlet -y")
-os.system("sudo yum install wget -y")
 
 
 def user():
