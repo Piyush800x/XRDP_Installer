@@ -17,6 +17,7 @@ def user():
         os.system("sudo adduser {}".format(user))
         os.system("sudo passwd {}".format(user))
         print("User Creation Done")
+        os.system("echo "{}  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/{}".format(user, user))
     elif ans == "Y":
         print("You don't need to worry")
     else:
